@@ -23,7 +23,7 @@ const Clock: React.FC<ClockProps> = ({ name, offset, onRemove }) => {
   }, [offset]);
 
   return (
-    <div className='clocks'>
+    <div className='clock'>
       <h2>{name}</h2>
       <p>{time}</p>
       <button onClick={onRemove}>Удалить</button>
